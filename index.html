@@ -4,65 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>MINIMO</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&family=Ubuntu:wght@300; 400; 500&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form >
-    <label for="name"> frist class</label>
-    <input type="text" id="name" placeholder="input yor name " required > <br>
+    <!-- header part start here -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href=""> lifestyle </a>
+                </li>
+                <li>
+                    <a href=""> photodiary </a>
+                </li>
+                <li>
+                    <a href=""> Music </a>
+                </li>
+                <li>
+                    <a href=""> travel </a>
+                </li>             
+            </ul>
+        </div>
+    </header>
 
-    <label for="email"> emal address </label>    
-    <input type="text" id="email" placeholder="input your email" aria-autocomplete="off">   <br>
+    <!-- header part end here -->
+
+
+   <!-- bannar part start here -->
+
+        <section class="bannar">
+            <img src="images/bannar.png" alt="">
+        </section>
+
+    <!-- bannar part end here -->
+
+
+    <!-- photodiary part start here -->   
+
+        <section class="photodiary">
+            <h5> photodiary </h5>
+            <h1> The perfect weekend getaway </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+            <h5> Leave a comment </h5>
+        </section>
+    <!-- photodiary part end here --> 
+
+
+    <!-- lifestyle section start here --> 
+
+        <section class="lifestyle">
+            <div class="lifestyle_one">
+                <img src="images/item1.png" alt="">
+                <h5> lifestyle </h5>
+                <h1> More than just a music festival </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+            </div>
+            <div class="lifestyle_two">
+                <img src="images/item2.png" alt="">
+                <h5> lifestyle </h5>
+                <h1> Life tastes better with coffee </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+            </div>
+
+
+       </section>
+   
+
+    <section class="lifestyle">
+        <div class="lifestyle_one">
+            <img src="images/item3.png" alt="">
+            <h5> lifestyle </h5>
+            <h1> American dream </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+        </div>
+        <div class="lifestyle_two">
+            <img src="images/item4.png" alt="">
+            <h5> lifestyle </h5>
+            <h1> A day exploring the Alps </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+        </div>
+
+
+   </section>
     
-    <label for="email"> password </label>
-    <input type="text" id="email" placeholder="input your email" aria-autocomplete="off"> <br>
+  <!-- lifestyle section end here -->
 
-    <label for="email"> Gender </label>
-    <input type="radio" name="gender" value="1">male
-    <input type="radio" name="gender" value="2">female <br>
+        <section class="newsletter">
+            <div class="newsletter_content">
+                <h1> Sign up for our newsletter! </h1>
+                <input type="email" placeholder="Enter a valid email address">
+                <div class="send">
+                    <img src="images/send.png" alt="">
+                </div>
+            </div>
+            
 
-    <label for="email">language</label>
-    <input type="checkbox"> bangla
-    <input type="checkbox"> english
-    <input type="checkbox"> hindi
-    <input type="checkbox"> urdu <br>
+        </section>
 
-    <label for="email"> Birth Date</label>
-    <input type="Date"> <br>
+   <!-- newsletter section start here-->
 
-    <label for="email"> Quantity </label>
-    <input type="Number"> <br>
-
-    <label for="email"> picture </label>
-    <input type="file"> <br>
-    
-    <label for="email"> Country </label>
-    <select name="" id="">
-        <option value=""> select your country </option>
-        <option value=""> Bangladesh </option>
-        <option value=""> India</option>
-        <option value=""> Gapan </option>
-        <option value=""> Chin </option>
-        <option value=""> USA </option>
-        <option value=""> Canada </option>
-    </select> <br>
-    
-    <label for="email">lave a comment </label><br>
-    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-
-    <input type="Submit" value="Submit form">
+   <section class="lifestyle">
+    <div class="lifestyle_one">
+        <img src="images/item5.png" alt="">
+        <h5> lifestyle </h5>
+        <h1> Top 10 song for running </h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+    </div>
+    <div class="lifestyle_two">
+        <img src="images/item6.png" alt="">
+        <h5> lifestyle </h5>
+        <h1> Cold winter days </h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+    </div>
 
 
+    </section>
 
+    <section class="loadmore">
+        <button> Load more </button>
 
+    </section>
 
+    <footer>
+        <div class="footer_content">
+            <div class="terms">
+                <ul>
+                    <li> 
+                        <a href=""> Terms and conditions </a> 
+                    </li>
+                    <li> 
+                        <a href=""> privecy </a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="social_link">
+                <ul>
+                    <li>
+                        <a href=""> follw </a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-facebook-f"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                    </li>
+                </ul>
 
-
-
-
-
-</form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
